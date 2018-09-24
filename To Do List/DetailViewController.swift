@@ -16,7 +16,7 @@ class DetailViewController: UIViewController {
     var toDoItem: String?
     var toDoNoteItem: String?
     
-    
+    //functions
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -50,12 +50,13 @@ class DetailViewController: UIViewController {
         }
     }
     
+    
+    //IBActions
+    
     @IBAction func toDoFieldChanged(_ sender: UITextField) {
         enableDisableSaveButton()
      }
-    
-    
-    
+
     @IBAction func cancelPressed(_ sender: UIBarButtonItem) {
         let isPresentingInAddMode = presentingViewController is UINavigationController
         if isPresentingInAddMode{
