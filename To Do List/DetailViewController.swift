@@ -9,14 +9,13 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
     @IBOutlet weak var toDoField: UITextField!
     @IBOutlet weak var toDoNoteView: UITextView!
     @IBOutlet weak var saveBarButton: UIBarButtonItem!
     var toDoItem: String?
     var toDoNoteItem: String?
     
-    //functions
+    //functions//
     override func viewDidLoad() {
         super.viewDidLoad()
         
