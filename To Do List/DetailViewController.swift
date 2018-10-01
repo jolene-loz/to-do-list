@@ -15,7 +15,7 @@ class DetailViewController: UIViewController {
     var toDoItem: String?
     var toDoNoteItem: String?
     
-    //functions//
+    //functions
     override func viewDidLoad() {
         super.viewDidLoad()
         
